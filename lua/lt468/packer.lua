@@ -35,6 +35,7 @@ return require('packer').startup(function(use)
     use('tpope/vim-fugitive')
     use('edkolev/tmuxline.vim')
     use('vim-airline/vim-airline')
+    use('norcalli/nvim-colorizer.lua')
     use {
         'VonHeikemen/lsp-zero.nvim',
         branch = 'v1.x',
